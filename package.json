@@ -8,8 +8,6 @@
   "type": "module",
   "scripts": {
     "start": "vite",
-    "serve": "wds --watch",
-    "serve:prod": "MODE=prod npm run serve",
     "test": "wdio run ./wdio.conf.js",
     "test:dev": "wdio run ./wdio.conf.js",
     "test:prod": "MODE=prod wdio run ./wdio.conf.js",
