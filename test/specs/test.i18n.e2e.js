@@ -11,7 +11,7 @@ describe('Change Language Test', () => {
     const firstHeaderOfTable = $(employeesTable).$('thead tr th:first-child');
 
     await employeesTable.waitForExist();
-    await expect(langueFlagImage).toHaveAttribute('src', '../docs/assets/turkey.png');
+    await expect(langueFlagImage).toHaveAttribute('src', './assets/turkey.png');
     await expect(firstHeaderOfTable).toHaveText("First Name");
   });
 
@@ -22,7 +22,7 @@ describe('Change Language Test', () => {
     const firstHeaderOfTable = $(employeesTable).$('thead tr th:first-child');
 
     await languageSelectionLink.click();
-    await expect(langueFlagImage).toHaveAttribute('src', '../docs/assets/us_uk.svg');
+    await expect(langueFlagImage).toHaveAttribute('src', './assets/us_uk.svg');
     await expect(firstHeaderOfTable).toHaveText("Ad");
   });
 
@@ -33,7 +33,7 @@ describe('Change Language Test', () => {
     const firstHeaderOfTable = $(employeesTable).$('thead tr th:first-child');
 
     await languageSelectionLink.click();
-    await expect(langueFlagImage).toHaveAttribute('src', '../docs/assets/turkey.png');
+    await expect(langueFlagImage).toHaveAttribute('src', './assets/turkey.png');
     await expect(firstHeaderOfTable).toHaveText("First Name");
   });
 

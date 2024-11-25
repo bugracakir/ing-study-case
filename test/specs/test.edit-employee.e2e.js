@@ -1,5 +1,5 @@
 import { expect } from "@wdio/globals";
-import { generateRandomId } from "../../docs/utils.js";
+import { generateRandomId } from "../../src/utils.js";
 
 describe('Employee Edit Test', () => {
 

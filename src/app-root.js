@@ -80,7 +80,7 @@ class AppRoot extends MobxLitElement {
     return html`
       <header>
         <nav>
-          <img src="../docs/assets/ing.png" class="logo" />
+          <img src="./assets/ing.png" class="logo" />
           <div class="menu-items">
             <a href="/" class="nav-link">Employees</a>
             <a href="/add-employee" class="nav-add-employee">Add Employee</a>
@@ -91,7 +91,7 @@ class AppRoot extends MobxLitElement {
                     class="language-selection"
                     @click=${() => globalStore.setLanguage("en")}
                   >
-                    <img src="../docs/assets/us_uk.svg" class="language-logo" />
+                    <img src="./assets/us_uk.svg" class="language-logo" />
                   </a>
                 `
               : html`
@@ -100,7 +100,7 @@ class AppRoot extends MobxLitElement {
                     @click=${() => globalStore.setLanguage("tr")}
                   >
                     <img
-                      src="../docs/assets/turkey.png"
+                      src="./assets/turkey.png"
                       class="language-logo"
                     />
                   </a>

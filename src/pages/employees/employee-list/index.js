@@ -245,7 +245,7 @@ class EmployeeList extends MobxLitElement {
                   class="view-toggle-button"
                   @click="${() => employeeStore.toggleView()}"
                 >
-                  <img src="../docs/assets/list.png" class="view-logo" />
+                  <img src="./assets/list.png" class="view-logo" />
                 </a>
               `
             : html`
@@ -253,7 +253,7 @@ class EmployeeList extends MobxLitElement {
                   class="view-toggle-button"
                   @click="${() => employeeStore.toggleView()}"
                 >
-                  <img src="../docs/assets/grid.png" class="view-logo" />
+                  <img src="./assets/grid.png" class="view-logo" />
                 </a>
               `}
         </div>
@@ -297,7 +297,7 @@ class EmployeeList extends MobxLitElement {
                               employeeStore.initiateEditEmployee(employee)}
                           >
                             <img
-                              src="../../../../docs/assets/edit.png"
+                              src="./assets/edit.png"
                               class="action-logo"
                             />
                           </a>
@@ -307,7 +307,7 @@ class EmployeeList extends MobxLitElement {
                               employeeStore.initiateDeleteEmployee(employee)}
                           >
                             <img
-                              src="../../../../docs/assets/trash.png"
+                              src="./assets/trash.png"
                               class="action-logo"
                             />
                           </a>
@@ -361,7 +361,7 @@ class EmployeeList extends MobxLitElement {
                           employeeStore.initiateEditEmployee(employee)}
                       >
                         <img
-                          src="../../../../docs/assets/edit.png"
+                          src="./assets/edit.png"
                           class="action-logo"
                         />
                       </a>
@@ -371,7 +371,7 @@ class EmployeeList extends MobxLitElement {
                           employeeStore.initiateDeleteEmployee(employee)}
                       >
                         <img
-                          src="../../../../docs/assets/trash.png"
+                          src="./assets/trash.png"
                           class="action-logo"
                         />
                       </a>
